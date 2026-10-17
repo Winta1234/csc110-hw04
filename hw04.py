@@ -1,5 +1,5 @@
 # ------------------------------------------------------
-#        Name: (Winta Kebede)
+#        Name: (put your name here)
 #       Peers: (add any collaborators)
 #  References: (anything you checked to solve this)
 # ------------------------------------------------------
@@ -9,92 +9,34 @@ secret_word = "food"
 
 # Task 1
 def check_text():
-    """ take input sentence from user and find secret word, dog, dog and print sentence associated with all the words. if the specific word is not found the loop continues."""
-    b= "dog" #to assign the word to a variable 
-    c= "Dog"
-    
-    while True:
-        a= input("Give me a sentence: ")
-        if a. find(secret_word) != -1: #in string a find the secret word and if you find it then print the string. when it doesn't find it it will return -1. That is why not equal to -1 is used
-            print("You used the secret word!")
-            break
-        elif a. find(b) !=-1:
-            print("You used the word \"dog\" or the word \"Dog\"!")
-            break
-        elif a. find(c) !=-1:
-            print("You used the word \"dog\" or the word \"Dog\"!")
-            break 
-        else:
-            print("Try again")
+    """ Add your docstring """
+    pass
+
 
 
 # Task 2
 def check_greater():
-    """ take two integer input from the user and print of one is greater than the other. But of the two are equal the loop continues. """
-    while True:
-        g= int(input("Give me 1st integer: "))
-        h= int(input("Give me 2nd integer: "))
-        if g>h:
-            print("First is Greater")
-            break # go to the next code outside of the loop
-        elif h>g:
-            print("Second is Greater")
-            break
-        elif g==h:
-            print("Try again")
-               
-               
-           
+    """ Add your docstring """
+    pass
 
 
 
 # Task 3
 def get_special_numbers():
-    """ in the range of 1-40 print the numbers that are a multiple of 3, but not multiple of 2 and 5 """
-    for a in range(1,40): 
-        if a%2!=0 and a%3==0 and a%5!=0: # if the number, when divided by 2 or 5 has remainder diffrent from 0 and when divided by 3 has a remainder 0, then print the number
-            print(a)
-          
-        
+    """ Add your docstring """
+    pass
 
 
 # Task 4.a
 def my_for_loop():
-    """ Add your docstring """    
-    
-    vowel =("A", "a", "E", "e","I","i","O","o","U","u")
-    j = input("Give me a string: ")
-    k= len(j)
-    h=" "
-    my_range = range(2,6)
-    if  k in my_range and h not in j:
-        for i in j:
-            if i in vowel:
-                print(f"letter {i} is a vowel")
-            else:
-                print(f"letter {i} is a consonant")
-    else:
-            print("bad word")
-            
-            
-        
+    """ Add your docstring """
+    pass
+
 # Task 4.b
 def my_while_loop():
-    """ take a string input from the user and print something, continue the loop or exit the program """
-    a = "a" # a varible is equal to string a
-    b = "b"
-    c = "c"
-    while True:
-        n=input("choose one option:a, b, or c: ") # is the input of the user
-        if n==a: # if the input is equal to a then continue the loop
-            continue
-        elif n==b:
-            print("Goodbye")
-            break
-        elif n==c:
-            sys.exit() # to exit the program
-        else:
-            print("try again")
+    """ Add your docstring """
+    pass
+
 # ---------------------------------------
 # Do not modify anything below this line
 # ---------------------------------------
